@@ -120,17 +120,9 @@ main{
     right: 5px;
 }
 .clients{
-    font-weight: 700;
-    /* font-size: 30px; */
+    font-weight: 700;    
 }
-.after{
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: coral;
-}
-.cardbottom{
-    /* margin-top: 20px; */
+.cardbottom{    
     margin: 15px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +181,7 @@ main{
     padding: 20px 0px;
   }
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color:hsl(37, 97%, 70%);
     text-decoration: none;
   } 
 
@@ -232,3 +224,10 @@ main{
     border-radius: 50%;
     margin:4px 3px 4px auto;    
   }  
+  .body-light .attribution {
+    color:hsl(228, 12%, 44%);
+  }
+  .body-light .attribution a {
+    color:hsl(37, 97%, 70%);
+    text-decoration: none;
+  } 
