@@ -1,1 +1,234 @@
+body{
+    background: hsl(230, 17%, 14%);
+    height: 100vh;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    /* s */
+    /* overflow: hidden; */
+}
+h1,h2,h3,p{
+    margin: 0px;
+}
+main{
+    width: 80%;
+    height: 100%;
+    /* background: wheat; */
+    align-self: center;
+    background: hsl(232, 19%, 15%);   
+}
+.top{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.thestatus{
+    width: 60px;
+    border-radius: 30px;
+    height: 25px;
+    background:linear-gradient(hsl(210, 78%, 56%) , hsl(146, 68%, 55%)) ;
+    display: flex;
+    align-content: center;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    position: relative;
+    /* padding: 0px 3px; */
+}
+.thestatus .themecirce{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin:4px 3px;
+    background: hsl(230, 17%, 14%);
+    /* margin-left: auto; */
+    /* border: thin solid black; */
+    /* right: 0; */
+}
+.topright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 2px;
+}
 
+.title{
+    /* padding-top: 30px;
+    padding-left: 20px; */
+    padding:30px 0px 40px 20px ;
+}
+.starter{
+    /* background: chocolate; */
+    height: 4px;
+    width: 100%;
+    margin-top: -15px;
+    position: relative;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 3px;
+}
+.fa{
+    background: hsl(208, 92%, 53%);
+}
+.twi{
+    background: hsl(203, 89%, 53%);
+}
+.inst{
+    background: linear-gradient(hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+}
+.you{
+    background: hsl(348, 97%, 39%);
+}
+.topright p{
+    padding: 10px 20px;
+}
+.cardsupper{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.iconup{
+    color: hsl(163, 72%, 41%);    
+}
+.icondown{
+    color: hsl(356, 69%, 56%);   
+}
+.upper {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 23%;
+    padding: 3px 0px;
+    background: hsl(228, 28%, 20%);
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;  
+    justify-content: space-around;  
+}
+.socialicon{
+    color: hsl(228, 34%, 66%);
+    font-weight: 400;
+}
+.socialicon img{
+    position: relative;
+    top:5px;
+    right: 5px;
+}
+.clients{
+    font-weight: 700;
+    /* font-size: 30px; */
+}
+.after{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: coral;
+}
+.cardbottom{
+    /* margin-top: 20px; */
+    margin: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardpiece{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    height: 120px;
+    width: 23%;
+    background: hsl(228, 28%, 20%);
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;  
+    justify-content: space-around; 
+}
+.overViewH{
+    padding: 30px 0px 10px 20px;
+}
+.socialicon.fol{
+    position: relative;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0px 2px 0px 20px;
+    font-size: 14px;
+}
+.upper h3{
+    position: relative;
+    padding: 0px 18px;
+    align-self: center;
+    font-size: 48px;
+}
+.icondown+.iconup >img{
+    position: relative;
+    top:5px;
+    right: 5px;
+}
+.counts,.views{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.views p,.views img{    
+    padding: 0px 20px;
+}
+.counts h3,.counts span{
+    padding: 0px 20px;
+}
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    padding: 20px 0px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  } 
+
+  /*Light Mode*/
+  .body-light{
+    background:  hsl(0, 0%, 100%);
+  }
+  .body-light h1{
+    color:hsl(230, 17%, 14%)
+  }
+  .body-light main{
+    background:  hsl(0, 0%, 100%);
+  }
+  .body-light h2{
+    color:hsl(230, 17%, 14%)
+  }
+  .body-light .upper{
+      background: hsl(227, 47%, 96%);
+  }
+  .body-light .cardpiece{
+    background: hsl(227, 47%, 96%);
+  }
+  .body-light h3{
+    color:hsl(230, 17%, 14%)
+  }
+  .body-light .socialicon{
+      font-weight: 400;
+      color:hsl(228, 12%, 44%);
+  }
+  .body-light .thestatus{
+      background: hsl(230, 22%, 74%);
+  }
+  .body-light .overViewH{
+    color:hsl(228, 12%, 44%);
+  }
+  .body-light .thestatus .themecirce{
+    background:  hsl(0, 0%, 100%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin:4px 3px 4px auto;    
+  }  
