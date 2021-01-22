@@ -1,13 +1,13 @@
+/*:::::::::::::::::::::  #### Dark Theme::::::::::::::::::::::::::::::*/
 body{
     background: hsl(230, 17%, 14%);
     height: 100vh;
     width: 1440px;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     color: hsl(0, 0%, 100%);
     font-family: Inter;
-    /* s */
-    /* overflow: hidden; */
 }
 h1,h2,h3,p{
     margin: 0px;
@@ -15,7 +15,6 @@ h1,h2,h3,p{
 main{
     width: 80%;
     height: 100%;
-    /* background: wheat; */
     align-self: center;
     background: hsl(232, 19%, 15%);   
 }
@@ -39,7 +38,6 @@ main{
     right: 5px;
     cursor: pointer;
     position: relative;
-    /* padding: 0px 3px; */
 }
 .thestatus .themecirce{
     width: 18px;
@@ -47,9 +45,6 @@ main{
     border-radius: 50%;
     margin:4px 3px;
     background: hsl(230, 17%, 14%);
-    /* margin-left: auto; */
-    /* border: thin solid black; */
-    /* right: 0; */
 }
 .topright{
     display: flex;
@@ -59,12 +54,9 @@ main{
 }
 
 .title{
-    /* padding-top: 30px;
-    padding-left: 20px; */
     padding:30px 0px 40px 20px ;
 }
 .starter{
-    /* background: chocolate; */
     height: 4px;
     width: 100%;
     margin-top: -15px;
@@ -185,7 +177,7 @@ main{
     text-decoration: none;
   } 
 
-  /*Light Mode*/
+  /*:::::::::::::::::::::  #### Light Theme::::::::::::::::::::::::::::::*/
   .body-light{
     background:  hsl(0, 0%, 100%);
   }
